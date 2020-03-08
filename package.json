@@ -1,0 +1,28 @@
+{
+  "name": "p5-fractal-tree",
+  "version": "1.0.0",
+  "description": "A simple study about p5js and webpack",
+  "main": "index.js",
+  "repository": "https://github.com/gfonseca/p5-fractal-tree",
+  "author": "Georgio Barbosa",
+  "license": "GNU",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --host 0.0.0.0 --mode development",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/register": "^7.8.6",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "p5": "^1.0.0",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
