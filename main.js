@@ -13,13 +13,10 @@ let s = (sk) => {
 	sk.draw = () => {
 		sk.background(30, 20 ,30);	
 		const len = sk.windowHeight / 3
-		sk.translate(sk.width / 2, sk.height +100)
+		sk.translate(sk.width / 2, sk.height +40)
 		sk.branch(len)
 		
 		sk.swing += 0.001 * sk.swingDir
-
-		console.log(sk.swing)
-		
 		if (sk.swing > 0.02 || sk.swing < 0 ) {
 			sk.swingDir = sk.swingDir * -1
 		}
