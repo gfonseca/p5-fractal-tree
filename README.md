@@ -1,6 +1,6 @@
 ![Tree Logo](https://raw.githubusercontent.com/gfonseca/p5-fractal-tree/master/assets/tree.png)
 
-#Fractal tree
+# Fractal tree
 
 ### This is an example of most basics fractal tree algorithms using p5, babel and webpack.
 
