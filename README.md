@@ -7,7 +7,7 @@
 # Build & Run
 
 ```sh
-yarn buil && yarn start
+yarn && yarn build && yarn start
 ```
 
 After that it's possible see the result in http://localhost:8080
